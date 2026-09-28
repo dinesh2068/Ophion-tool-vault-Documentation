@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" role="img" aria-label="Lighthouse scores: Performance 99, Accessibility 96, Best Practices 100, SEO 100">
+  <rect width="900" height="180" rx="12" fill="#0b0b0d"/>
+  <rect x=".5" y=".5" width="899" height="179" rx="12" fill="none" stroke="#3a1015"/>
+  <g transform="translate(112.5 76)">
+    <circle r="48" fill="none" stroke="#26262b" stroke-width="9"/>
+    <circle r="48" fill="none" stroke="#0cce6b" stroke-width="9" stroke-linecap="round" stroke-dasharray="301.59" stroke-dashoffset="3.02" transform="rotate(-90)">
+      <animate attributeName="stroke-dashoffset" values="301.59;3.02;3.02" keyTimes="0;0.3;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".3 0 .2 1;0 0 1 1"/></circle>
+    <text y="11" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="30" font-weight="700" fill="#0cce6b">99</text>
+    <text y="82" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="2" fill="#e6e0e0">Performance</text>
+  </g>
+  <g transform="translate(337.5 76)">
+    <circle r="48" fill="none" stroke="#26262b" stroke-width="9"/>
+    <circle r="48" fill="none" stroke="#0cce6b" stroke-width="9" stroke-linecap="round" stroke-dasharray="301.59" stroke-dashoffset="12.06" transform="rotate(-90)">
+      <animate attributeName="stroke-dashoffset" values="301.59;12.06;12.06" keyTimes="0;0.3;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".3 0 .2 1;0 0 1 1"/></circle>
+    <text y="11" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="30" font-weight="700" fill="#0cce6b">96</text>
+    <text y="82" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="2" fill="#e6e0e0">Accessibility</text>
+  </g>
+  <g transform="translate(562.5 76)">
+    <circle r="48" fill="none" stroke="#26262b" stroke-width="9"/>
+    <circle r="48" fill="none" stroke="#0cce6b" stroke-width="9" stroke-linecap="round" stroke-dasharray="301.59" stroke-dashoffset="0.00" transform="rotate(-90)">
+      <animate attributeName="stroke-dashoffset" values="301.59;0.00;0.00" keyTimes="0;0.3;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".3 0 .2 1;0 0 1 1"/></circle>
+    <text y="11" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="30" font-weight="700" fill="#0cce6b">100</text>
+    <text y="82" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="2" fill="#e6e0e0">Best Practices</text>
+  </g>
+  <g transform="translate(787.5 76)">
+    <circle r="48" fill="none" stroke="#26262b" stroke-width="9"/>
+    <circle r="48" fill="none" stroke="#0cce6b" stroke-width="9" stroke-linecap="round" stroke-dasharray="301.59" stroke-dashoffset="0.00" transform="rotate(-90)">
+      <animate attributeName="stroke-dashoffset" values="301.59;0.00;0.00" keyTimes="0;0.3;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".3 0 .2 1;0 0 1 1"/></circle>
+    <text y="11" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="30" font-weight="700" fill="#0cce6b">100</text>
+    <text y="82" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="2" fill="#e6e0e0">SEO</text>
+  </g>
+</svg>

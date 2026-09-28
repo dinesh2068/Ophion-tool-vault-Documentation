@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" role="img" aria-label="An Archive of Absolute Knowledge. The Blind Seer still watches.">
+  <defs>
+    <radialGradient id="iris"><stop offset="0" stop-color="#ff5a66"/><stop offset=".6" stop-color="#b3121f"/><stop offset="1" stop-color="#4a0710"/></radialGradient>
+    <radialGradient id="cloud"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#cfc9c9" stop-opacity=".75"/></radialGradient>
+    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0b0d"/><stop offset="1" stop-color="#1c0508"/></linearGradient>
+    <radialGradient id="halo" cx="50%" cy="35%" r="45%"><stop offset="0" stop-color="#e63946" stop-opacity=".3"/><stop offset="1" stop-color="#e63946" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="200" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="200" rx="14" fill="url(#halo)"><animate attributeName="opacity" values=".5;1;.5" dur="6s" repeatCount="indefinite"/></rect>
+  <g transform="translate(450 70)">
+    <circle r="66" fill="none" stroke="#e63946" stroke-opacity=".45" stroke-width="1.2" stroke-dasharray="2 9" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="56" fill="none" stroke="#e63946" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="22 8 4 8">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <clipPath id="eyeclip"><path d="M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z"><animate attributeName="d" values="M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z;M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z;M-50,0 Q0,0 50,0 Q0,0 -50,0 Z;M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z;M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z" keyTimes="0;0.9;0.94;0.98;1" dur="6s" repeatCount="indefinite"/></path></clipPath>
+    <path d="M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z" fill="#0f0709" stroke="#e63946" stroke-width="2" filter="url(#glow)"><animate attributeName="d" values="M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z;M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z;M-50,0 Q0,0 50,0 Q0,0 -50,0 Z;M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z;M-50,0 Q0,-34 50,0 Q0,34 -50,0 Z" keyTimes="0;0.9;0.94;0.98;1" dur="6s" repeatCount="indefinite"/></path>
+    <g clip-path="url(#eyeclip)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="-12 0;12 0;-12 0" keyTimes="0;.5;1" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+        <circle r="21" fill="url(#iris)"/>
+        <circle r="9" fill="url(#cloud)"/>
+      </g>
+    </g>
+  </g>
+  <text x="450" y="160" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="20" font-style="italic" fill="#e6e0e0">An Archive of Absolute Knowledge.</text>
+  <text x="453" y="184" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="6" fill="#e63946">THE BLIND SEER STILL WATCHES.
+    <animate attributeName="opacity" values=".45;1;.45" dur="4s" repeatCount="indefinite"/></text>
+  <rect x=".5" y=".5" width="899" height="199" rx="14" fill="none" stroke="#3a1015"/>
+</svg>
