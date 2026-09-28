@@ -36,8 +36,6 @@ Ophion is a **curated, expandable technical knowledge vault**: one place to find
 
 It is not a random link dump. Every listing is organised into folders, tagged, and marked with a **trust level**, so a visitor can tell at a glance how much to rely on it.
 
-**Visual identity:** red, black and white, with a technical-archive / digital-vault / gothic feel. Light and dark themes are both supported.
-
 ---
 
 ## The Story Behind the Name
