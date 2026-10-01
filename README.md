@@ -1,4 +1,4 @@
-# Ophion · The Blind Seer
+# Ophion 
 
 **Useful discoveries. Preserved in one place.**
 
